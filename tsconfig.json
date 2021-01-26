@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "lib": ["ES2019", "DOM"],
+    "target": "ES2019",
+    "incremental": true,
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "declaration": true,
+  },
+  "include": [
+    "./src",
+  ]
+}
